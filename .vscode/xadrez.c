@@ -2,7 +2,7 @@
 
 int main(){
 
-    int torre, rainha, bispo;
+    int torre, rainha, bispo, cavalo;
 
     printf("Rainha\n");
     //mover a rainha 8 casas para a esquerda
@@ -29,6 +29,24 @@ int main(){
         printf("Direita\n");//para onde está se movimentando
         torre++;
     }
+
+    printf("\n");
+
+    printf("Cavalo\n");
+    //movimentação da peça cavalo saindo da posição inicial
+    cavalo = 0;
+    while (cavalo < 1)
+    {
+        for (int i = 0; i < 1; i++)
+        {
+            printf("Baixo\n");
+            printf("Baixo\n");
+            printf("Esquerda\n");
+        }
+
+       cavalo++; 
+    }
+    
     
     return 0;
 }
